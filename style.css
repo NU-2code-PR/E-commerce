@@ -13,6 +13,9 @@ nav {
 
 img {
   width: 100%;
+  height: 100%;
+  max-height: 50vh;
+  padding: 20px;
 }
 
 .nav__container {
@@ -72,6 +75,7 @@ header {
 }
 
 .header__container {
+  padding: 32px;
   width: 100%;
   max-width: 720px;
   margin: 0 auto;
@@ -84,7 +88,6 @@ header {
 .header__descripton {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 h1 {
@@ -116,8 +119,30 @@ button:active {
   font-size: 20px;
   border-radius: 4px;
   border: none;
+  display: block;
+  margin: 0 auto;
 }
 
 .header__img--wrapper {
   padding: 20px;
+}
+
+.container {
+  padding: 56px 0;
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*HIGHLIGHTS*/
+
+.highlight__wrapper {
+  display: flex;
+}
+
+.highlight {
+  padding: 0 24px;
 }
