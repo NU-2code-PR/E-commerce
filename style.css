@@ -257,7 +257,6 @@ button:active {
 
 .highlight__wrapper {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .highlights {
@@ -438,6 +437,7 @@ footer {
 .btn__menu {
   display: block;
 }
+
 
 .highlights {
   width: 100%;
